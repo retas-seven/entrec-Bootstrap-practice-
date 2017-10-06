@@ -1,2 +1,2 @@
-# entrec-Bootstrap-practice-
-entrecの画面をBootstrapでつくる
+﻿# entrec-Bootstrap-practice-
+entrecの画面をBootstrapでつくる。
