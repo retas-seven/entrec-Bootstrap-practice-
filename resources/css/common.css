@@ -12,7 +12,7 @@
 
 #header {
 	/* background: url(../img/s_entrec.png) left no-repeat; */
-	height: 85px;
+	height: 105px;
 	/*position: fixed;*/
 	color: rgb(3, 72, 151);
 	left: 0;
@@ -39,7 +39,7 @@
 
 .title {
 	position: relative;  
-	height: 580px;
+	height: 500px;
 	width: 100%;
 	top: 0;
 	left: 0;
@@ -55,7 +55,7 @@
 	right: 0;
 	z-index: 9990;
 	/*background: linear-gradient(to right, rgba(0, 255, 242, 0.753) 0%, rgba(15, 59, 238, 0.4) 100%);*/
-	background: linear-gradient(to right, rgba(15, 59, 238, 0.6) 0%, rgba(0, 255, 242, 0.6) 100%);
+	background: linear-gradient(to right, rgba(0, 132, 255, 0.6) 0%, rgba(0, 255, 242, 0.2) 100%);
 }
 
 .title_pic {
@@ -86,7 +86,19 @@
 }
 
 .title_text{
+	text-align: center;
 	color: rgb(255, 255, 255);
-	font-size: 60px;
-	font-weight: 400!;
+	font-size: 45px;
+	font-weight: 400;
+	text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.4);
+	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic ProN", "メイリオ", "游ゴシック", YuGothic, Meiryo, sans-serif;
+}
+
+.title_description {
+	text-align: center;
+	color: rgb(255, 255, 255);
+    font-size: 100%;
+	font-weight: 400;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.4);
+	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic ProN", "メイリオ", "游ゴシック", YuGothic, Meiryo, sans-serif;
 }
