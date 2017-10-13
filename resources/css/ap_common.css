@@ -1,0 +1,130 @@
+.bg_green {
+    background-color: rgb(151, 210, 200);
+}
+
+.common_black{
+	color: rgb(60, 60, 60);
+}
+
+.common_white{
+	color: rgb(255, 255, 255);
+}
+
+.navbar-brand {
+	background: url(../img/logo_s.png) no-repeat left center;
+	background-size: contain;
+	height: 105px;
+	width: 233px;
+}
+
+#header {
+	height: 105px;
+	/*position: fixed;*/
+	/*z-index: 10000;*/
+	padding: 0px 10px;
+	/*box-shadow: 0px 0px 10px 0px rgba(138, 130, 255, 0.8);*/
+	/* background-color: #2B4C72; */
+	/* background-color: #608EB5; */
+	/* background-color: #566782; */
+	/* background-color: #777A80; */
+	/* background-color: rgb(241, 251, 255); */
+	/* background-color: rgb(151, 210, 200); */
+}
+
+.relative   {  
+    position: relative;  
+}  
+
+.absolute   {  
+    position: absolute;  
+}  
+
+.align_right {
+	text-align: right;
+}
+
+
+/* フェードイン */
+@keyframes fadeInUpSmall {
+	from {
+	  opacity: 0;
+	  transform: translate3d(0, 25px, 0);
+	}
+  
+	to {
+	  opacity: 1;
+	  transform: none;
+	}
+  }
+  
+  .fadeInUpSmall {
+	animation-name: fadeInUpSmall;
+  }
+
+	@keyframes fadeInDownSmall {
+		from {
+			opacity: 0;
+			transform: translate3d(0, -25px, 0);
+		}
+	
+		to {
+			opacity: 1;
+			transform: none;
+		}
+	}
+	
+	.fadeInDownSmall {
+		animation-name: fadeInDownSmall;
+	}
+
+
+/* 共通ボタン */
+.btn-ghost {
+  background: transparent;
+	border: 1px solid;
+	font-weight: 500;
+}
+
+.btn-ghost.btn-default {
+  color: #ccc;
+}
+
+.btn-ghost.btn-primary {
+  color: #245580;
+}
+
+.btn-ghost.btn-success {
+  color: #3e8f3e;
+}
+
+.btn-ghost.btn-info {
+  color: #3498db;
+}
+
+.btn-ghost.btn-warning {
+  color: #e38d13;
+}
+
+.btn-ghost.btn-danger {
+  color: #b92c28;
+}
+
+.btn-ghost.btn-primary:hover,
+.btn-ghost.btn-success:hover,
+.btn-ghost.btn-info:hover,
+.btn-ghost.btn-warning:hover,
+.btn-ghost.btn-danger:hover {
+  color: #fff;
+}
+
+.btn-ghost.btn-white {
+  color: #fff;
+  border: 1px solid #fff;
+}
+
+.btn-ghost.btn-white:hover {
+  color: #333;
+  background: #fff;
+}
+
+  
