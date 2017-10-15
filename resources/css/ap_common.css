@@ -21,7 +21,7 @@
 	height: 105px;
 	/*position: fixed;*/
 	/*z-index: 10000;*/
-	padding: 0px 10px;
+	padding: 0px;
 	/*box-shadow: 0px 0px 10px 0px rgba(138, 130, 255, 0.8);*/
 	/* background-color: #2B4C72; */
 	/* background-color: #608EB5; */
@@ -46,7 +46,7 @@
 .login_button_inline_height {
 	line-height: 100px;
 	text-align: right;
-	margin-right: 40px;
+	margin-right: 50px;
 }
 .login_button_inline_height .login_button {
 	display: inline-block;
