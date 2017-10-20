@@ -44,6 +44,7 @@
 .regist_box {
 	background:rgba(255, 255, 255, 0.5);
 	height: 100%;
+	padding: 40px;
 }
 
 .title_text{
@@ -60,5 +61,35 @@
 	color: rgb(255, 255, 255);
     font-size: 100%;
 	font-weight: 400;
-    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.4);
+	text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.4);
 }
+
+.login_button_inline_height {
+	line-height: 100px;
+	text-align: right;
+	margin-right: 50px;
+}
+
+.login_button_inline_height .login_button {
+	display: inline-block;
+	vertical-align: middle;
+	line-height: normal;
+}
+
+.mail_input {
+	width: 100%
+}
+
+.common_row {
+	height: 100vh;
+}
+
+.rownum01 {
+	background-color: rgb(235, 235, 235);
+}
+
+.rownum02 {
+	background-color: rgb(255, 195, 195);
+}
+
+
