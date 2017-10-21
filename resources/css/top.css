@@ -42,9 +42,9 @@
 }
 
 .regist_box {
-	background:rgba(255, 255, 255, 0.5);
+	background:rgba(255, 255, 255, 0.65);
 	height: 100%;
-	padding: 40px;
+	padding: 30px 40px 0px;
 }
 
 .title_text{
@@ -77,19 +77,48 @@
 }
 
 .mail_input {
-	width: 100%
+	width: 100;
+	opacity: 0.8;
+	border-color: rgb(0, 138, 177);
 }
 
+.mail_input_rabel {
+    font-size: 17px;
+    color: rgba(0, 58, 93, 0.76);
+    text-shadow: 0px 1px 3px rgba(232, 231, 220, 0);
+}
 .common_row {
 	height: 100vh;
 }
-
+	
 .rownum01 {
-	background-color: rgb(235, 235, 235);
+	background-color: rgb(255, 255, 255);
 }
 
 .rownum02 {
 	background-color: rgb(255, 195, 195);
 }
 
-
+/* ------------------------------------------- */
+/* プレースホルダの色 */
+/* ------------------------------------------- */
+/* for Webkit */
+.form-control::-webkit-input-placeholder{
+    color: rgb(0, 117, 168);
+    font-size: 0.85em;
+}
+/* for Firefox */
+.form-control::-moz-placeholder{
+    color: rgb(0, 117, 168);
+    font-size: 0.85em;
+}
+ /* for Firefox 18以前 */
+.form-control:-moz-placeholder{
+    color: rgb(0, 117, 168);
+    font-size: 0.85em;
+}
+ /* for Windows IE */
+.form-control:-ms-input-placeholder{
+    color: rgb(0, 117, 168);
+    font-size: 0.85em;
+}
