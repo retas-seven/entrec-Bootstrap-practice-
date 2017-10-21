@@ -124,13 +124,24 @@
 	text-align: center;
 }
 
-.rownum01 {
+.row01 {
 	background-color: rgb(245, 245, 244);
 	padding-top: 60px;
 	background-image: url(../img/map.jpg);
 }
 
-.rownum02 {
+.row01_01 {
+	background: /*rgba(187, 255, 215, 0.4) */ url(../img/devices.png) no-repeat top right;
+	height: 320px;
+	text-align: left;
+	/*
+	padding :15px 25px;
+	border-bottom :1px solid;
+	border-right :1px solid;
+	*/
+}
+
+.row02 {
 	background-color: rgb(255, 195, 195);
 }
 
