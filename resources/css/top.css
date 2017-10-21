@@ -1,6 +1,8 @@
 .title {
 	position: relative;  
-	height: 500px;
+	height: 510px;
+	/* min-height: calc(100% - 105px); */
+	/* height: 100%; */
 	width: 100%;
 	top: 0;
 	left: 0;
@@ -44,7 +46,7 @@
 .regist_box {
 	background:rgba(255, 255, 255, 0.65);
 	height: 100%;
-	padding: 30px 40px 0px;
+	padding: 35px 40px 0px;
 }
 
 .title_text{
@@ -65,7 +67,7 @@
 }
 
 .login_button_inline_height {
-	line-height: 100px;
+	line-height: 110px;
 	text-align: right;
 	margin-right: 50px;
 }
@@ -89,14 +91,6 @@
 }
 .common_row {
 	height: 100vh;
-}
-	
-.rownum01 {
-	background-color: rgb(255, 255, 255);
-}
-
-.rownum02 {
-	background-color: rgb(255, 195, 195);
 }
 
 /* ------------------------------------------- */
@@ -122,3 +116,21 @@
     color: rgb(0, 117, 168);
     font-size: 0.85em;
 }
+
+/* ------------------------------------------- */
+/* 機能説明部分 */
+/* ------------------------------------------- */
+.function_title{
+	text-align: center;
+}
+
+.rownum01 {
+	background-color: rgb(245, 245, 244);
+	padding-top: 60px;
+	background-image: url(../img/map.jpg);
+}
+
+.rownum02 {
+	background-color: rgb(255, 195, 195);
+}
+

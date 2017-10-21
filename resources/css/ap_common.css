@@ -1,5 +1,16 @@
+hr {
+	height: 1px;
+	background-color:rgb(0, 58, 93);
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
 .bg_green {
     background-color: rgb(151, 210, 200);
+}
+
+.common_blue {
+	color: rgba(0, 58, 93, 0.76);
 }
 
 .common_black{
@@ -10,15 +21,19 @@
 	color: rgb(255, 255, 255);
 }
 
+.text_center{
+	text-align: center;
+}
+
 .navbar-brand {
 	background: url(../img/logo_s.png) no-repeat left center;
 	background-size: contain;
-	height: 105px;
+	height: 110px;
 	width: 233px;
 }
 
 #header {
-	height: 105px;
+	height: 110px;
 	/*position: fixed;*/
 	/*z-index: 10000;*/
 	padding: 0px;
@@ -133,4 +148,7 @@
   background: #fff;
 }
 
-  
+
+.font_40 {
+	font-size: 40px;
+}
