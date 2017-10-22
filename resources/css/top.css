@@ -127,18 +127,42 @@
 .row01 {
 	background-color: rgb(245, 245, 244);
 	padding-top: 60px;
+	padding-bottom: 60px;
 	background-image: url(../img/map.jpg);
 }
 
 .row01_01 {
-	background: /*rgba(187, 255, 215, 0.4) */ url(../img/devices.png) no-repeat top right;
-	height: 320px;
+	/* background: rgba(187, 255, 215, 0.4) url(../img/checklist.png) no-repeat top right;*/ 
+	height: 180px;
 	text-align: left;
+	margin-top: 20px;
+	font-weight: 500;
+	padding-left: 60px;
+	font-size: 1.1em;
+}
+
+.row01_02 {
+	/* background: rgba(187, 255, 215, 0.4) url(../img/devices.png) no-repeat top right; */ 
+	height: 180px;
+	text-align: left;
+	margin-top: 20px;
+	font-weight: 500;
+	padding-left: 60px;
+	font-size: 1.1em;
 	/*
 	padding :15px 25px;
 	border-bottom :1px solid;
 	border-right :1px solid;
 	*/
+}
+
+.row01_03 {
+	height: 180px;
+	text-align: left;
+	margin-top: 20px;
+	font-weight: 500;
+	padding-left: 60px;
+	font-size: 1.1em;
 }
 
 .row02 {

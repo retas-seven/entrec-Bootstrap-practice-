@@ -1,6 +1,6 @@
 hr {
 	height: 1px;
-	background-color:rgb(0, 58, 93);
+	background-color:rgba(6, 78, 119, 0.5);
 	margin-top: 20px;
 	margin-bottom: 20px;
 }
@@ -147,7 +147,6 @@ hr {
   color: #333;
   background: #fff;
 }
-
 
 .font_40 {
 	font-size: 40px;
