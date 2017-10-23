@@ -139,12 +139,12 @@ hr {
 }
 
 .btn-ghost.btn-white {
-  color: #fff;
+  color: rgb(255, 255, 255);
   border: 1px solid #fff;
 }
 
 .btn-ghost.btn-white:hover {
-  color: #333;
+  color: rgba(0, 58, 93, 0.76);
   background: #fff;
 }
 
