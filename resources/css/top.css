@@ -124,10 +124,10 @@
 }
 
 .row01 {
-	background-color: rgb(245, 245, 244);
 	padding-top: 60px;
 	padding-bottom: 30px;
 	background-image: url(../img/map.jpg);
+	background-size: cover;
 }
 
 .row01_01 {
@@ -182,7 +182,7 @@
 
 .row02_01_overlay {
 	/*background-color: rgb(255, 195, 195); */
-	/*background-color: rgb(110, 160, 253);*/
+	/* background-color: rgb(110, 160, 253); */
 	background: linear-gradient(to right, rgba(0, 132, 255, 0.6) 50%, rgba(0, 255, 242, 0.2) 100%);
 	position: absolute;
 	width: 100%;

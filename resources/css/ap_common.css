@@ -64,33 +64,45 @@ hr {
 	  opacity: 0;
 	  transform: translate3d(0, 25px, 0);
 	}
-  
-	to {
-	  opacity: 1;
-	  transform: none;
-	}
+  to {
+      opacity: 1;
+	    transform: none;
+	  }
   }
-  
   .fadeInUpSmall {
-	animation-name: fadeInUpSmall;
-  }
-
+	  animation-name: fadeInUpSmall;
+	}
+	
 	@keyframes fadeInDownSmall {
 		from {
 			opacity: 0;
 			transform: translate3d(0, -25px, 0);
 		}
-	
 		to {
 			opacity: 1;
 			transform: none;
 		}
 	}
-	
 	.fadeInDownSmall {
 		animation-name: fadeInDownSmall;
 	}
 
+	/* 伸縮 */
+@keyframes scaleDown {
+  from {
+    transform: scaleY(0);
+		transform-origin:top;
+  }
+  to {
+		transform: scaleY(1);
+		transform-origin:top;
+  }
+}
+.scaleDown {
+  animation-name: scaleDown;
+}
+
+	/* text（大） */
 	.input-xlg {
     height: 60px;
     padding: 10px 20px;
