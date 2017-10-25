@@ -183,7 +183,9 @@
 .row02_01_overlay {
 	/*background-color: rgb(255, 195, 195); */
 	/* background-color: rgb(110, 160, 253); */
-	background: linear-gradient(to right, rgba(0, 132, 255, 0.6) 50%, rgba(0, 255, 242, 0.2) 100%);
+	/*background: linear-gradient(to right, rgba(0, 132, 255, 0.6) 50%, rgba(0, 255, 242, 0.2) 100%);*/
+	/* background-color: rgb(148, 198, 255); */
+	background-color: rgb(60, 151, 	255);
 	position: absolute;
 	width: 100%;
 	top: 0;
@@ -194,5 +196,14 @@
 }
 
 .row03 {
-	height: 400px;
+	height: 30px;
+	background-color: rgba(255, 255, 255, 0.6);
+	background-image: url(../img/title01.png);
 }
+
+.row04 {
+	height: 310px;
+	background-color: rgb(57, 62, 70);
+	/*background-image: url(../img/black.png);*/
+}
+
