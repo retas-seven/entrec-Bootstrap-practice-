@@ -199,11 +199,30 @@
 	height: 30px;
 	background-color: rgba(255, 255, 255, 0.6);
 	background-image: url(../img/title01.png);
+	background-size: cover;
 }
 
 #footer {
-	height: 310px;
+	color: #FFFFFF;
 	background-color: rgb(57, 62, 70);
+	padding: 60px 0 50px;
 	/*background-image: url(../img/black.png);*/
 }
 
+#footer h3 {
+	color: #FFFFFF;
+	/* color: #18bc9c; */
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 25px;
+}
+
+#footer li {
+    list-style: none;
+    margin-bottom: 15px;
+	line-height: 1.3;
+}
+
+#footer ul {
+	padding: 0px;
+}
