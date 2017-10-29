@@ -45,7 +45,7 @@
 .regist_box {
 	background:rgba(255, 255, 255, 0.65);
 	height: 100%;
-	padding: 35px 31px 20px;
+	padding: 35px 40px 20px;
 }
 
 .title_text{
@@ -55,7 +55,6 @@
 	font-weight: 400;
 	text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.4);
 	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic ProN", "メイリオ", "游ゴシック", YuGothic, Meiryo, sans-serif;
-	white-space: nowrap;
 }
 
 .title_description {
