@@ -30,7 +30,7 @@
 	right: 0;
 	background-size: cover;
 	/*background: linear-gradient(to right, rgba(0, 255, 200, 0.644) 0%, rgba(183, 253, 255, 0.5) 100%);*/
-	background-image: url(../img/title01.png);
+	background-image: url(../img/title.png);
 }
 
 .title_content {
