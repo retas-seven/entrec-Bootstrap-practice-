@@ -1,15 +1,15 @@
 .title {
-	position: relative;  
-	min-height: 510px;
+	/* position: relative;*/
+	/* min-height: 510px; */
 	/* min-height: calc(100% - 105px); */
 	/* height: 100%; */
 	width: 100%;
-	top: 0;
-	left: 0;
-	bottom: 0;
-	right: 0;
+	background-size: cover;
+	background-image: url(../img/title.png);
+	padding: 50px 0;
 }
 
+/*
 .title_overlay {
 	position: absolute;
 	top: 0;
@@ -17,7 +17,6 @@
 	bottom: 0;
 	right: 0;
 	z-index: 9990;
-	/*background: linear-gradient(to right, rgba(0, 255, 242, 0.753) 0%, rgba(15, 59, 238, 0.4) 100%);*/
 	background: linear-gradient(to right, rgba(0, 132, 255, 0.6) 0%, rgba(0, 255, 242, 0.2) 100%);
 }
 
@@ -29,7 +28,6 @@
 	bottom: 0;
 	right: 0;
 	background-size: cover;
-	/*background: linear-gradient(to right, rgba(0, 255, 200, 0.644) 0%, rgba(183, 253, 255, 0.5) 100%);*/
 	background-image: url(../img/title.png);
 }
 
@@ -42,11 +40,12 @@
 	right: 0;
 	padding: 50px;
 }
+*/
 
 .regist_box {
 	background:rgba(255, 255, 255, 0.65);
 	height: 100%;
-	padding: 35px 40px 0px;
+	padding: 35px 31px 20px;
 }
 
 .title_text{
@@ -56,6 +55,7 @@
 	font-weight: 400;
 	text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.4);
 	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic ProN", "メイリオ", "游ゴシック", YuGothic, Meiryo, sans-serif;
+	white-space: nowrap;
 }
 
 .title_description {
@@ -180,6 +180,19 @@
 	z-index: 9990;
 }
 
+/*
+.row01_01.h1 {
+	margin: 0 !important;
+	padding: 0 !important;
+}
+*/
+
+.row02_bottom {
+	height: 50px;
+	background-image: url(../img/map.jpg);
+	background-size: cover;
+}
+
 .row02_01_overlay {
 	/*background-color: rgb(255, 195, 195); */
 	/* background-color: rgb(110, 160, 253); */
@@ -195,7 +208,7 @@
 	z-index: 9980;
 }
 
-.row03 {
+.footer_up_bottom {
 	height: 30px;
 	background-color: rgba(255, 255, 255, 0.6);
 	background-image: url(../img/title01.png);
@@ -206,6 +219,7 @@
 	color: #FFFFFF;
 	background-color: rgb(57, 62, 70);
 	padding: 60px 0 50px;
+	text-align: center;
 	/*background-image: url(../img/black.png);*/
 }
 
