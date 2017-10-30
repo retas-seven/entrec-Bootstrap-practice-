@@ -51,7 +51,7 @@
 .title_text{
 	text-align: center;
 	color: rgb(255, 255, 255);
-	font-size: 45px;
+	font-size: 40px;
 	font-weight: 400;
 	text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.4);
 	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic ProN", "メイリオ", "游ゴシック", YuGothic, Meiryo, sans-serif;
@@ -96,7 +96,8 @@
 /* ------------------------------------------- */
 /* for Webkit */
 .form-control::-webkit-input-placeholder{
-    color: rgb(0, 117, 168);
+	color: rgb(0, 117, 168);
+	/*color: rgb(18, 156, 235);*/
     font-size: 0.85em;
 }
 /* for Firefox */
@@ -188,7 +189,7 @@
 
 .row02_bottom {
 	height: 50px;
-	background-image: url(../img/map.jpg);
+	background-image: url(../img/map_thin.jpg);
 	background-size: cover;
 }
 

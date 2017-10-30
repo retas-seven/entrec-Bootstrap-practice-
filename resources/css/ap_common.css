@@ -5,6 +5,10 @@ hr {
 	margin-bottom: 20px;
 }
 
+.no_wrap {
+	white-space: nowrap;
+}
+
 .bg_green {
     background-color: rgb(151, 210, 200);
 }
