@@ -1,5 +1,6 @@
-﻿# Entrec（Bootstrap-practice）
-Entrecの画面をBootstrapを使ってつくりなおす。<br>よくあるページっぽいデザインにする。
+﻿# Bootstrap practice
+
+entrecの画面をBootstrapを使ってつくりなおす。<br>よくあるページっぽいデザインにする。
 
 
 ## 画面
