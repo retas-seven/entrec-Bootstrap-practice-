@@ -1,8 +1,10 @@
+@charset "UTF-8";
+
 .title {
 	width: 100%;
 	background-size: cover;
 	background-image: url(../img/title.png);
-	padding: 50px 0;
+	padding: 50px 60px;
 }
 
 .regist_box {
@@ -89,33 +91,21 @@
 	padding-bottom: 60px;
 	background-image: url(../img/map.jpg);
 	background-size: cover;
-}
-
-.row01_01 {
-	min-height: 180px;
-	text-align: left;
-	margin-top: 20px;
-	font-weight: 500;
-	padding-left: 60px;
 	font-size: 1.1em;
 }
 
-.row01_02 {
-	min-height: 180px;
-	text-align: left;
-	margin-top: 10px;
-	font-weight: 500;
-	padding-left: 60px;
-	font-size: 1.1em;
+.row01_title {
+	font-size: 40px;
+	text-align: center;
+	margin-bottom: 30px;
 }
-
-.row01_03 {
+	
+.row01_description {
 	min-height: 180px;
 	text-align: left;
 	margin-top: 10px;
 	font-weight: 500;
 	padding-left: 60px;
-	font-size: 1.1em;
 }
 
 .row01_otoiawase {
@@ -177,4 +167,33 @@
 
 #footer ul {
 	padding: 0px;
+}
+
+@media all and (max-width: 768px) {
+	h1, h2, h3, h4, h5, h6 {
+		font-size: 1.1em;
+	}
+
+	.title {
+		padding: 50px 0px;
+	}
+
+	.regist_box {
+		padding: 35px 10px 20px;
+	}
+
+	.title_text{
+		font-size: 30px;
+	}
+
+	.row01_title {
+		font-size: 30px;
+		margin-bottom: 20px;
+	}
+
+	.row01_description {
+		min-height: 120px;
+		padding-left: 15px;
+		font-size: 0.8em;
+	}
 }

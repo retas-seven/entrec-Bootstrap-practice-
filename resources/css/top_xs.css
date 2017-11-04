@@ -1,0 +1,11 @@
+@charset "UTF-8";
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,"ヒラギノ角ゴ ProN W3","Hiragino Kaku Gothic ProN","メイリオ",Meiryo,sans-serif;
+    font-weight: 300;
+    line-height: 0.5;
+    color: inherit;
+	font-size: 0.5em;
+}
+
+
