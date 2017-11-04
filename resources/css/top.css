@@ -1,46 +1,9 @@
 .title {
-	/* position: relative;*/
-	/* min-height: 510px; */
-	/* min-height: calc(100% - 105px); */
-	/* height: 100%; */
 	width: 100%;
 	background-size: cover;
 	background-image: url(../img/title.png);
 	padding: 50px 0;
 }
-
-/*
-.title_overlay {
-	position: absolute;
-	top: 0;
-	left: 0;
-	bottom: 0;
-	right: 0;
-	z-index: 9990;
-	background: linear-gradient(to right, rgba(0, 132, 255, 0.6) 0%, rgba(0, 255, 242, 0.2) 100%);
-}
-
-.title_pic {
-	position: absolute;
-	z-index: 9980;
-	top: 0;
-	left: 0;
-	bottom: 0;
-	right: 0;
-	background-size: cover;
-	background-image: url(../img/title.png);
-}
-
-.title_content {
-	position: absolute;
-	z-index: 9995;
-	top: 0;
-	left: 0;
-	bottom: 0;
-	right: 0;
-	padding: 50px;
-}
-*/
 
 .regist_box {
 	background:rgba(255, 255, 255, 0.65);
@@ -88,8 +51,6 @@
     color: rgba(0, 58, 93, 0.76);
     text-shadow: 0px 1px 3px rgba(232, 231, 220, 0);
 }
-.common_row {
-}
 
 /* ------------------------------------------- */
 /* プレースホルダの色 */
@@ -125,14 +86,13 @@
 
 .row01 {
 	padding-top: 60px;
-	padding-bottom: 30px;
+	padding-bottom: 60px;
 	background-image: url(../img/map.jpg);
 	background-size: cover;
 }
 
 .row01_01 {
-	/* background: rgba(187, 255, 215, 0.4) url(../img/checklist.png) no-repeat top right;*/ 
-	height: 180px;
+	min-height: 180px;
 	text-align: left;
 	margin-top: 20px;
 	font-weight: 500;
@@ -141,22 +101,16 @@
 }
 
 .row01_02 {
-	/* background: rgba(187, 255, 215, 0.4) url(../img/devices.png) no-repeat top right; */ 
-	height: 180px;
+	min-height: 180px;
 	text-align: left;
 	margin-top: 10px;
 	font-weight: 500;
 	padding-left: 60px;
 	font-size: 1.1em;
-	/*
-	padding :15px 25px;
-	border-bottom :1px solid;
-	border-right :1px solid;
-	*/
 }
 
 .row01_03 {
-	height: 180px;
+	min-height: 180px;
 	text-align: left;
 	margin-top: 10px;
 	font-weight: 500;
@@ -164,13 +118,12 @@
 	font-size: 1.1em;
 }
 
-.row02 {
+.row01_otoiawase {
 	height: 200px;
-	position: relative;  
-	/*background-image: url(../img/title01.png);*/
+	position: relative;
 }
 
-.row02_01 {
+.row01_otoiawase_base {
 	position: absolute;
 	width: 100%;
 	top: 0;
@@ -180,25 +133,12 @@
 	z-index: 9990;
 }
 
-/*
-.row01_01.h1 {
-	margin: 0 !important;
-	padding: 0 !important;
-}
-*/
-
-.row02_bottom {
-	height: 50px;
-	background-image: url(../img/map_thin.jpg);
-	background-size: cover;
-}
-
-.row02_01_overlay {
+.row01_otoiawase_overlay {
 	/*background-color: rgb(255, 195, 195); */
 	/* background-color: rgb(110, 160, 253); */
 	/*background: linear-gradient(to right, rgba(0, 132, 255, 0.6) 50%, rgba(0, 255, 242, 0.2) 100%);*/
 	/* background-color: rgb(148, 198, 255); */
-	background-color: rgb(60, 151, 	255);
+	background-color: rgb(60, 151, 255);
 	position: absolute;
 	width: 100%;
 	top: 0;
@@ -220,12 +160,10 @@
 	background-color: rgb(57, 62, 70);
 	padding: 60px 0 50px;
 	text-align: center;
-	/*background-image: url(../img/black.png);*/
 }
 
 #footer h3 {
 	color: #FFFFFF;
-	/* color: #18bc9c; */
     font-size: 16px;
     font-weight: 400;
     margin-bottom: 25px;
