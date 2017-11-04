@@ -138,6 +138,11 @@
 	z-index: 9980;
 }
 
+.row01_otoiawase_btn {
+	width: 400px;
+	line-height: 40px
+}
+
 .footer_up_bottom {
 	height: 30px;
 	background-color: rgba(255, 255, 255, 0.6);
@@ -183,7 +188,7 @@
 	}
 
 	.title_text{
-		font-size: 30px;
+		font-size: 25px;
 	}
 
 	.row01_title {
@@ -195,5 +200,9 @@
 		min-height: 120px;
 		padding-left: 15px;
 		font-size: 0.8em;
+	}
+
+	.row01_otoiawase_btn {
+		width: 90%;
 	}
 }
