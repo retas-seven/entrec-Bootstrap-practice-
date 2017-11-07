@@ -31,7 +31,7 @@
 }
 
 .login_button_inline_height {
-	line-height: 110px;
+	/* line-height: 110px; */
 	text-align: right;
 	margin-right: 50px;
 }
@@ -40,6 +40,11 @@
 	display: inline-block;
 	vertical-align: middle;
 	line-height: normal;
+}
+
+.login_button_padding {
+	padding-right: 47px;
+	padding-top: 30px;
 }
 
 .mail_input {
@@ -179,6 +184,11 @@
 		font-size: 1.1em;
 	}
 
+	.login_button_padding {
+		padding-right: 10px;
+		padding-top: 0px;
+	}
+	
 	.title {
 		padding: 50px 0px;
 	}

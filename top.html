@@ -16,13 +16,29 @@
     </head>
     <body>
         <header id="header">
-            <div class="nav-header">
-                <a class="navbar-brand" href="#"></a>
-                <div class="login_button_inline_height" style="white-space: nowrap;">
-                    <!--
-                    <a href="#" class="btn btn-info btn-lg btn-ghost login_button" role="button"><span class="glyphicon glyphicon-road" aria-hidden="true"></span> 新規登録</a>
-                    -->
-                    <a href="#" class="btn btn-info btn-lg btn-ghost login_button" role="button"><span class="glyphicon glyphicon-log-in" aria-hidden="true"></span> ログイン</a>
+            <div id="header_wrap">
+                <nav class="navbar navbar-default">
+                    <div class="container" style="width: 100%;">
+                        <div class="navbar-header">
+                            <button class="navbar-toggle" data-toggle="collapse" data-target="#mainNav">
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                            <!--<a href="#" class="navbar-brand"></a>-->
+                        </div>
+                        <!--<div id="mainNav" class="login_button_inline_height collapse navbar-collapse" style="white-space: nowrap;">-->
+                        <div class="collapse navbar-collapse" id="mainNav">
+                            <div class="nav navbar-nav navbar-right align_right login_button_padding">
+                                <a href="#" class="btn btn-info btn-lg btn-ghost login_button" role="button">
+                                    <span class="glyphicon glyphicon-log-in" aria-hidden="true"></span> ログイン
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+                <div id="logo">
+                    <img src="resources/img/logo_s.png">
                 </div>
             </div>
         </header>
