@@ -1,8 +1,3 @@
-body {
-	background-size: cover;
-    background-image: url(../img/map.jpg);
-}
-
 article h2 {
     padding-bottom: 10px;
     border-bottom: 1px solid rgba(0, 58, 93, 0.56);
@@ -18,11 +13,18 @@ article ol {
 }
 
 .page_title {
-	width: 100%;
 	background-size: cover;
     background-image: url(../img/title.png);
     height:150px;
-    line-height:150px;
+	/*line-height:150px;*/
+	display: flex;
+	align-items: center; /* 縦方向中央揃え */
+	justify-content: center; /* 横方向中央揃え */
+}
+
+.page_title h1 {
+	margin: 0px;
+	padding: 0px;
 }
 
 .page_title_text{
@@ -30,13 +32,21 @@ article ol {
 	color: #ffffff;
 	font-size: 50px;
 	font-weight: 500;
-    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.4);
+	text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.4);
 }
 
-.article_box{
-    background-color: rgb(255, 255, 255);
-	width: 1200px;
-	padding: 50px 100px;
-	margin-left: auto;
- 	margin-right: auto;
+.article {
+	background-size: cover;
+    background-image: url(../img/map.jpg);
+}
+
+.article_main {
+	background-color: rgb(255, 255, 255);
+	padding: 40px 60px;
+}
+
+@media all and (max-width: 768px) {
+	.article_main {
+		padding: 40px 15px;
+	}
 }
