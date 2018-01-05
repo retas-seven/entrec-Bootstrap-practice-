@@ -1,1 +1,13 @@
 
+table.rectbl {
+	width: 1100px;
+}
+
+td.center {
+	text-align: center;
+}
+
+th.center {
+	text-align: center;
+}
+
