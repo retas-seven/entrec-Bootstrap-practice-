@@ -9,6 +9,8 @@
         <link href="resources/css/ap_common.css" rel="stylesheet">
         <link href="resources/css/checklist.css" rel="stylesheet">
         <link href='resources/css/animate.css' rel='stylesheet' type='text/css'>
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet">
+        <link href='resources/clockpicker/bootstrap-clockpicker.min.css' rel='stylesheet' type='text/css'>
         <!--[if lt IE 9]>
             <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
             <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
@@ -33,7 +35,12 @@
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-xs-4" style="border: 1px solid">
-                            <h2><span class="glyphicon glyphicon-ok" aria-hidden="true"></span> right</h2>
+                        <h2><span class="glyphicon glyphicon-ok" aria-hidden="true"></span> right</h2>
+
+                        <div class="input-group clockpicker col-sm-2">
+                            <input type="text" class="form-control" value="09:30">
+                        </div>
+                        
                     </div>
                     <div class="col-xs-8" style="border: 1px solid">
                         <h2><span class="glyphicon glyphicon-ok" aria-hidden="true"></span> left</h2>
@@ -73,8 +80,12 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
         <script src="resources/bs/js/bootstrap.min.js"></script>
         <script src="resources/js/wow.min.js"></script>
+        <script src="resources/clockpicker/bootstrap-clockpicker.min.js"></script>
         <script>
-		    new WOW().init();
+            new WOW().init();
+            $(function() {
+                $('.clockpicker').clockpicker();
+            });
 		</script>
     </body>
 </html>
