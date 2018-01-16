@@ -11,3 +11,12 @@ th.center {
 	text-align: center;
 }
 
+.margin_top_50 {
+	margin-top: 50px;
+}
+
+.background {
+	padding-top: 50px;
+	background-size: cover;
+	background-image: url(../img/map.jpg);
+}
