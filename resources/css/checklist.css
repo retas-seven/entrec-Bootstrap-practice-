@@ -4,8 +4,10 @@ table.rectbl {
 	background-color: white;
 }
 
-td.center {
+.table>tbody>tr>td {
 	text-align: center;
+	vertical-align: middle;
+	/*padding: 2px;*/
 }
 
 /*
