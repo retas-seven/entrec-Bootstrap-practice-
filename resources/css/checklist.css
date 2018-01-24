@@ -42,3 +42,41 @@ table.rectbl {
 	box-shadow: none;
 	text-align:center;
 }
+
+/* ------------------------------------------- */
+/* チェックボックスを画像にする */
+/* ------------------------------------------- */
+input[type="checkbox"]{
+    -webkit-appearance: none;
+	outline: none;
+	border:none;
+    position: relative;
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background-size: contain;
+}
+
+input[type="checkbox"]:checked:before {
+    content: "";
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background-image: url(../img/check.png);
+    background-size: 25px 25px;
+    outline: none;
+}
+
+input[type="checkbox"]:hover {
+	background-image: url(../img/checkbox_hover.png);
+}
+
+input[type="checkbox"]:focus {
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	border:none;
+	outline: none;
+}
