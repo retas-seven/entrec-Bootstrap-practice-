@@ -133,3 +133,17 @@ input[type="checkbox"]:focus {
 	border:none;
 	outline: none;
 }
+
+/* ------------------------------------------- */
+/* カレンダーの表示を調整 */
+/* ------------------------------------------- */
+.table-condensed>tbody>tr>td, 
+.table-condensed>tbody>tr>th, 
+.table-condensed>tfoot>tr>td, 
+.table-condensed>tfoot>tr>th, 
+.table-condensed>thead>tr>td, 
+.table-condensed>thead>tr>th {
+	padding: 10px 15px;
+	font-size: 1.2em;
+	background-color: rgb(248, 250, 255);
+}
