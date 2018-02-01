@@ -1,6 +1,6 @@
 
 .table.rectbl {
-	width: 1100px;
+	width: 1021px;
 	background-color: rgb(248, 250, 255);
 }
 
@@ -32,7 +32,7 @@
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6db3f2', endColorstr='#2093ea',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 
 	color: rgb(235, 240, 255);
-	font-size: 1.1em;
+	/*font-size: 1.1em;*/
 	/*
 	background-size: cover;
 	background-image: url(../img/title.png);
@@ -42,7 +42,7 @@
 .check_item {
 	background-color: rgba(158, 200, 255, 0.589);
 	color: rgb(19, 124, 185);
-	font-size: 1.1em;
+	/*font-size: 1.1em;*/
 }
 
 .month_day {
@@ -143,7 +143,31 @@ input[type="checkbox"]:focus {
 .table-condensed>tfoot>tr>th, 
 .table-condensed>thead>tr>td, 
 .table-condensed>thead>tr>th {
-	padding: 10px 15px;
-	font-size: 1.2em;
+	padding: 5px 11px;
+	/*font-size: 1.1em;*/
 	background-color: rgb(248, 250, 255);
 }
+/*
+.datepicker-inline {
+    width: 300px;
+}
+*/
+
+#startdate{margin: 0 20px 20px 20px;}
+
+
+/* ------------------------------------------- */
+/* 保存ボタン */
+/* ------------------------------------------- */
+.btn-hozon {
+	background-color: rgb(93, 168, 248);
+	border: 1px solid rgb(32,147,234);
+	font-weight: 500;
+	color: rgb(255, 255, 255);
+  }
+
+  .btn-hozon:hover {
+    background: rgb(39, 99, 168); 
+	border: 1px solid rgb(93, 168, 248);
+	color: rgb(255, 255, 255);
+  }
