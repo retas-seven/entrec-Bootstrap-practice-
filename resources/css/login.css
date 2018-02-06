@@ -8,7 +8,7 @@ body {
 	width: 100%;
 	background-size: cover;
 	/*background-image: url(../img/entrance.png);*/
-	background-image: url(../img/gentleman.jpg);
+	background-image: url(../img/gentleman.png);
 	padding: 80px 60px;
 	min-height: calc(100% - 110px);
 }
